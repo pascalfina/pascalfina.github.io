@@ -12,15 +12,18 @@
 <body>
   <header class="site-header">
     <div class="brand">
-      <span class="brand-mark">PC</span>
-      <span class="brand-text">Pascal Cosinus</span>
+      <span class="brand-mark">PF</span>
+      <span class="brand-text">Pascal Cosimo Fina</span>
     </div>
     <nav class="nav" id="nav">
       <a href="#home" class="nav-link">Home</a>
       <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#experience" class="nav-link">Experience</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#extras" class="nav-link">Extras</a>
       <a href="#contact" class="nav-link">Contact</a>
+      <a href="Pascal_s_resume.pdf" class="nav-link" download>Resume</a>
     </nav>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -31,42 +34,48 @@
     <section class="hero" id="home">
       <div class="hero-copy">
         <p class="eyebrow">Hi, I'm Pascal</p>
-        <h1>A calm personal site for sharing who I am.</h1>
-        <p class="lede">Swap in your story, your photo, and your links. Keep it simple and focus on what you want people to know about you.</p>
+        <h1>MSc student at ETH Zurich</h1>
+        <p class="lede">Focused on electrical engineering and information technology at ETH Zurich. Particularly interested in robotics and working with low-power platforms—microcontrollers and FPGAs</p>
         <div class="hero-actions">
           <a class="btn primary" href="#contact">Contact</a>
-          <a class="btn ghost" href="#about">More about me</a>
+          <a class="btn ghost" href="Pascal_s_resume.pdf" download>Download resume</a>
         </div>
         <div class="quick-facts">
           <div>
             <p class="fact-label">Based in</p>
-            <p class="fact-value">Your city, country</p>
+            <p class="fact-value">Zurich, Switzerland</p>
           </div>
           <div>
             <p class="fact-label">Role</p>
-            <p class="fact-value">What you do</p>
+            <p class="fact-value">MSc Electrical Engineering student</p>
           </div>
           <div>
             <p class="fact-label">Email</p>
-            <p class="fact-value">you@example.com</p>
+            <p class="fact-value">pascal.c.fina@gmail.com</p>
+          </div>
+          <div>
+            <p class="fact-label">Languages</p>
+            <p class="fact-value">German (C2), English (C1), French (B1)</p>
           </div>
         </div>
       </div>
       <div class="profile-card">
-        <div class="avatar" aria-hidden="true">PC</div>
+        <div class="avatar photo">
+          <img src="image.jpg" alt="Photo of Pascal Cosimo Fina">
+        </div>
         <h3>Snapshot</h3>
         <ul class="profile-list">
           <li>
             <span class="profile-label">Currently</span>
-            <span class="profile-value">What you're working on</span>
+            <span class="profile-value">MSc Electrical Engineering & IT · ETH Zurich</span>
           </li>
           <li>
             <span class="profile-label">Interested in</span>
-            <span class="profile-value">What you want next</span>
+            <span class="profile-value">Robotics, embedded systems, ML for sensing</span>
           </li>
           <li>
             <span class="profile-label">Strengths</span>
-            <span class="profile-value">Top skills or traits</span>
+            <span class="profile-value">Python/C++, system design, clear communication</span>
           </li>
         </ul>
       </div>
@@ -75,23 +84,14 @@
     <section class="section" id="about">
       <div class="section-head">
         <p class="eyebrow">About</p>
-        <h2>A short intro.</h2>
-        <p class="section-lede">Write a few lines about yourself—what drives you, what you enjoy building, and how you like to work.</p>
+        <h2>A quick intro.</h2>
       </div>
       <div class="about-columns">
         <div class="card soft-card">
           <p class="card-label">Story</p>
           <p class="card-text">
-            I'm <strong>Pascal</strong>. Add your background here: where you learned to code, what industries you've touched, or the kind of projects that make you light up.
+            I'm Pascal, an Information & Computer Engineering graduate from TU Graz. I worked in Infineon's Radar and Frequency Department applying SLAM with indirect ToF sensors, and I taught Digital System Design labs. Exchange semester at Seoul National University. Currently I am pursuing my MSc in Electrical Engineering & IT at ETH Zurich.
           </p>
-        </div>
-        <div class="card soft-card">
-          <p class="card-label">How I work</p>
-          <ul class="bullet-list">
-            <li>What you care about (clarity, accessibility, shipping on time).</li>
-            <li>How you collaborate (async, pairing, writing docs).</li>
-            <li>What you value (user trust, thoughtful details, fast pages).</li>
-          </ul>
         </div>
       </div>
     </section>
@@ -99,36 +99,34 @@
     <section class="section" id="skills">
       <div class="section-head">
         <p class="eyebrow">Skills</p>
-        <h2>Things I'm comfortable with.</h2>
+        <h2>Technical skills/interests</h2>
       </div>
       <div class="skills">
         <div class="skill-group">
-          <p class="card-label">Frontend</p>
+          <p class="card-label">Programming</p>
           <div class="tag-row">
-            <span class="pill soft">HTML/CSS</span>
-            <span class="pill soft">JavaScript</span>
-            <span class="pill soft">React</span>
-            <span class="pill soft">TypeScript</span>
-            <span class="pill soft">Next.js</span>
+            <span class="pill soft">Python</span>
+            <span class="pill soft">C</span>
+            <span class="pill soft">C++</span>
+            <span class="pill soft">MATLAB</span>
           </div>
         </div>
         <div class="skill-group">
-          <p class="card-label">Tooling & Practices</p>
+          <p class="card-label">Hardware & Platforms</p>
+          <div class="tag-row">
+            <span class="pill soft">SystemVerilog</span>
+            <span class="pill soft">FPGA/ASIC Design</span>
+            <span class="pill soft">Low power MCU</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="card-label">Tools & Practices</p>
           <div class="tag-row">
             <span class="pill soft">Git</span>
-            <span class="pill soft">Testing</span>
-            <span class="pill soft">Design systems</span>
-            <span class="pill soft">Accessibility</span>
-            <span class="pill soft">Docs</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <p class="card-label">Working style</p>
-          <div class="tag-row">
-            <span class="pill soft">Collaborative</span>
-            <span class="pill soft">Async friendly</span>
-            <span class="pill soft">Prototyping</span>
-            <span class="pill soft">User-focused</span>
+            <span class="pill soft">CMake</span>
+            <span class="pill soft">Machine Learning</span>
+            <span class="pill soft">ROS</span>
+            <span class="pill soft">LaTeX</span>
           </div>
         </div>
       </div>
@@ -138,30 +136,127 @@
       <div class="section-head">
         <p class="eyebrow">Experience</p>
         <h2>Where I've been.</h2>
-        <p class="section-lede">List a few roles with dates and highlights. Keep it short and focused on impact.</p>
+        <p class="section-lede">Roles I've held before moving to Zurich for my master's.</p>
       </div>
       <div class="timeline">
         <article class="timeline-item">
-          <div class="time">2023 — Present</div>
+          <div class="time">Mar 2025 — Jul 2025</div>
           <div class="timeline-card">
-            <h3>Role @ Company</h3>
-            <p>One or two lines about what you shipped, improved, or led.</p>
+            <h3>Teaching Assistant · ISEC TU Graz</h3>
+            <p>Digital System Design tutor: Q&A sessions, labs, grading, student interviews. Technologies: SystemVerilog, C.</p>
           </div>
         </article>
         <article class="timeline-item">
-          <div class="time">2021 — 2023</div>
+          <div class="time">Feb 2025 — Nov 2025</div>
           <div class="timeline-card">
-            <h3>Previous role</h3>
-            <p>Mention key projects, tech stack, or outcomes (performance wins, conversions, reliability).</p>
+            <h3>Student Employee · Infineon Technologies</h3>
+            <p>Radar and Frequency Department: refined ToF sensing with SLAM and RL-based optimization; hands-on with C++, Python, ROS, ML.</p>
           </div>
         </article>
         <article class="timeline-item">
-          <div class="time">Before</div>
+          <div class="time">Sep 2023 — Oct 2024</div>
           <div class="timeline-card">
-            <h3>Earlier experience</h3>
-            <p>Education, freelance, internships, or anything that shows your path.</p>
+            <h3>Diploma Student · Infineon Technologies</h3>
+            <p>Bachelor thesis in collaboration with TU Graz: SLAM with indirect ToF cameras for robotics/navigation.</p>
           </div>
         </article>
+        <article class="timeline-item">
+          <div class="time">Nov 2022 — Sep 2023</div>
+          <div class="timeline-card">
+            <h3>Student Employee · Infineon Technologies</h3>
+            <p>Supported radar and frequency projects; integrated ToF sensors and built early SLAM prototypes. Stack: C++, Python, ROS.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Jul 2022 — Sep 2022</div>
+          <div class="timeline-card">
+            <h3>Summer Intern · Infineon Technologies</h3>
+            <p>Radar and Frequency Department internship in Graz; groundwork with sensing and navigation systems.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Jul 2020 — Aug 2020</div>
+          <div class="timeline-card">
+            <h3>Software Developer Intern · Styrian State Government</h3>
+            <p>Supported monitoring of pollutant levels in Styria. Technologies: Python, MATLAB, C++.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Jul 2019 — Aug 2019</div>
+          <div class="timeline-card">
+            <h3>Intern · University of Graz (Analytical Chemistry Lab)</h3>
+            <p>Measured heavy metal content in plant samples; used chemical lab instruments. Technologies: MATLAB, Python.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Oct 2020 — Jul 2021</div>
+          <div class="timeline-card">
+            <h3>Paramedic · Red Cross Austria</h3>
+            <p>Served at COVID-19 test stations following mandatory social service.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-head">
+        <p class="eyebrow">Education</p>
+        <h2>Where I'm learning now.</h2>
+        <p class="section-lede">From Graz to Seoul to Zurich.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="time">2025 — Present</div>
+          <div class="timeline-card">
+            <h3>MSc Electrical Engineering & IT · ETH Zurich</h3>
+            <p>Zurich, Switzerland.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Sep 2024 — Dec 2024</div>
+          <div class="timeline-card">
+            <h3>Exchange · Seoul National University</h3>
+            <p>Electrical and Computer Engineering; Seoul, South Korea.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">Sep 2021 — Jul 2024</div>
+          <div class="timeline-card">
+            <h3>BSc Information & Computer Engineering · TU Graz</h3>
+            <p>Thesis: SLAM with indirect Time-of-Flight cameras. Merit scholarships (2022-2024); OverSEAs scholarship (2024).</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="extras">
+      <div class="section-head">
+        <p class="eyebrow">Extras</p>
+        <h2>Certifications, scholarships, interests.</h2>
+      </div>
+      <div class="skills">
+        <div class="skill-group">
+          <p class="card-label">Certifications</p>
+          <div class="tag-row">
+            <span class="pill soft">Paramedic (Red Cross Austria)</span>
+            <span class="pill soft">IELTS Academic</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="card-label">Scholarships</p>
+          <div class="tag-row">
+            <span class="pill soft">Merit scholarship (TU Graz 2022-2024)</span>
+            <span class="pill soft">OverSEAs scholarship (2024)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="card-label">Interests</p>
+          <div class="tag-row">
+            <span class="pill soft">Robotics & sensing</span>
+            <span class="pill soft">Radar systems</span>
+            <span class="pill soft">Hardware Design</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -169,21 +264,20 @@
       <div class="contact-card">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Let's talk.</h2>
           <p class="section-lede">
-            Want to collaborate or just say hi? Send me a note and I'll reply soon.
+            Feel free to conatct me anytime.
           </p>
         </div>
         <div class="contact-actions">
-          <a class="btn primary" href="mailto:you@example.com">Email me</a>
-          <a class="btn ghost" href="https://github.com/cosinus2412" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn primary" href="mailto:pascal.c.fina@gmail.com">Email me</a>
+          <a class="btn ghost" href="Pascal_s_resume.pdf" download>Download resume</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Simple personal page • Update the text to make it yours</p>
+    <p>Pascal Cosimo Fina • Based in Zurich • Multilingual (German C2, English C1, French B1) • Austrian</p>
   </footer>
 
   <script src="main.js"></script>

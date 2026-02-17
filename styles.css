@@ -147,11 +147,11 @@ main {
 }
 
 .eyebrow {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .lede {
@@ -202,17 +202,35 @@ main {
 }
 
 .avatar {
-  width: 74px;
-  height: 74px;
-  border-radius: 16px;
+  width: 96px;
+  height: 96px;
+  border-radius: 18px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
   display: grid;
   place-items: center;
   font-weight: 800;
   letter-spacing: -0.02em;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 14px;
+  overflow: hidden;
+}
+
+.avatar.photo {
+  width: 180px;
+  height: auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  overflow: visible;
+}
+
+.avatar.photo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
 }
 
 .profile-card h3 {
